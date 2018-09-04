@@ -49,10 +49,10 @@ def user_result(test_result, test_reducer):
                  'По шкале "{}" набрано - {} баллов\n' \
                  'По шкале "{}" - {}, по шкале "{}" - {}\n' \
                  'Минимальный бал был набран по шкале "{}" - {}'.format(
-        scale_sorted[0], result_sorted[0],
-        scale_sorted[1], result_sorted[1],
-        scale_sorted[2], result_sorted[2],
-        scale_sorted[3], result_sorted[3],
-        scale_sorted[4], result_sorted[4])
+                  scale_sorted[0], result_sorted[0],
+                  scale_sorted[1], result_sorted[1],
+                  scale_sorted[2], result_sorted[2],
+                  scale_sorted[3], result_sorted[3],
+                  scale_sorted[4], result_sorted[4])
 
     return conclusion
